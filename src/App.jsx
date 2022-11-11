@@ -46,7 +46,7 @@ function App() {
       if (isActive && isPaused === false) {
         interval = setInterval(() => {
           setTime((time) => time - 1);
-        }, 100);
+        }, 1000);
       } else {
         clearInterval(interval);
       }
@@ -63,7 +63,7 @@ function App() {
       if (isActive && isPaused === false) {
         interval = setInterval(() => {
           setTime((time) => time - 1);
-        }, 100);
+        }, 1000);
       } else {
         clearInterval(interval);
       }
